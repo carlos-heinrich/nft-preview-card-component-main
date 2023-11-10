@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    background-color:  hsl(217, 54%, 11%);;
+    align-items: center;
+    justify-content: center;
+  height: 100vh;
+  font-size: 18px;
+
+}
+.container{
+    width: 350px;
+    justify-content: center;
+    justify-items: center;
+    background-color:hsl(216, 50%, 16%) ;
+    color:hsl(215, 51%, 70%) ;
+    border-radius: 20px;
+    border-bottom: 100px;
+    background-size:cover;
+    align-items: center;
+   text-align: center;
+   border: 1px solid ;
+   padding: 10px;
+      
+}
+.container2{
+text-align: left;
+   
+}
+
+p.price {
+  color: hsl(178, 100%, 50%)
+}
+.p2 {
+  display: flex;  
+  justify-content: space-between;
+  width: 100%;
+  
+}
+.days {
+  margin-left: 10px;
+}
+.dol {
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.pps{
+  margin-top: 10px;
+}
+.logo{
+width: 50px;
+height: 50px;
+
+}
+img.img {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.imgage-container:hover{
+  color: aqua;
+  transition: 0.3s;
+}
+
+.svg-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nft:hover + .svg-container,
+.svg-container:hover {
+  opacity: 1;
+}
+.info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.info p{
+  margin: 0 0 0 20px;
+}
+.color{
+  color: aqua;
+  transition: 0.3s;
+
+}
+.color:hover{
+  color:blue;
+  cursor: pointer;
+}
